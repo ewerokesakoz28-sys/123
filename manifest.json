@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "kraken v8.2",
+  "version": "8.2",
+  "minimum_chrome_version": "102",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAusf77/BV+qLvPASaWvu6ZDyONVSEIeOkIVhGpVfDBU8OK/WlxqOIsu7wH2TDJagvthUMn/ptcArudUY/knJfx9+S5K5ohwig1TIXRz3+Sx6d4ffqBnoMx74pjrFKs/o5ONi+OJbQJyFHW7C5vKyRv69kNQawzdEJHSPFuTGLRw+Hb9if/biK/yVPivriUG6aDKXlF8i2iGtnd4HHZCjeTN687NCz+UeohEOQwLiQLg0mXsXx8EjKbP9IZgQ4kn5+/SKn3S9bP59hySoni7bFhrjJv/z5toVj0DV1cFhSPERqW9geMXnTmfYMjUg46fqeUhah9gAhZFXr6hol0i9Z3wIDAQAB",
+  "description": "Gmail outreach automation with multi-platform API integration and smart message routing",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "storage",
+    "windows",
+    "alarms",
+    "debugger",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "https://mail.google.com/*",
+    "https://vvsproject.xyz/*",
+    "https://haronrent.xyz/*",
+    "https://okteam.rest/*",
+    "https://api-kraks-team.redservice.org/*",
+    "https://api-old.goo.network/*",
+    "https://api.goo.network/*",
+    "https://openrouter.ai/*",
+    "https://license.okhoodbothokichkrossballinloh.lol/*"
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "kraken",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
